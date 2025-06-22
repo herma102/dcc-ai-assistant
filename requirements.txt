@@ -7,3 +7,4 @@ streamlit
 python-dotenv
 requests
 beautifulsoup4
+faiss-cpu
