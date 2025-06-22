@@ -1,5 +1,6 @@
 openai
-langchain>=0.0.197
+langchain>=0.1.15
+langchain-community
 chromadb
 pymupdf
 streamlit
