@@ -1,11 +1,9 @@
 openai
 langchain>=0.1.15
 langchain-community
-chromadb
+faiss-cpu
 pymupdf
 streamlit
 python-dotenv
 requests
 beautifulsoup4
-faiss-cpu
-faiss-cpu
