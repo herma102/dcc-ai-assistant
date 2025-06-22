@@ -20,7 +20,7 @@ def load_documents():
 # Create vector store from documents
 def build_vector_store(docs):
     embedding = OpenAIEmbeddings()
-    db = Chroma.from_documents(docs, embedding)
+    db = FAISS.from_documents(docs, embedding)
     return db
 
 # Create QA chain
